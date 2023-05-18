@@ -1,0 +1,159 @@
+body {
+    background-color: rgb(130, 130, 138);
+    font-size: 62.5%;
+    padding-top: 10vb;
+    min-height: 100vh;
+}
+
+/* a {
+    text: white !important;
+} */
+
+#muscleCard {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2{
+    font-size: 2.4rem;
+    color: black;
+    margin-bottom: 5rem;
+    text-shadow: 0cap;
+    height: 100px;
+}
+
+h2 > span {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.container-fluid {
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.card {
+    transition: all 0.3s;
+    box-shadow: black;
+    margin-left: 5px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+}
+
+.navbar {
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding-bottom: 1vh;  */
+}
+
+.nav-link:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+}
+
+.dropdown-item:hover {
+    background-color: lightblue;
+    color: red;
+} 
+
+.card[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+.footer {
+    height: 50px;
+    margin-top: -50px;
+}
+
+#sticky-footer{
+    position: sticky;
+    top: 100%;
+}
+
+#muscleGroup{
+    display: flex;
+    justify-content: center;
+}
+
+#workout-title {
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 4vb;
+    margin-right: 4vb;
+}
+
+#workout-title h2{
+    margin-bottom: 0;
+    color: rgb(60, 58, 61);
+}
+
+#workout-instructions {
+    margin: 0 10vb;
+
+}
+
+#workout-instructions p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.go-back-btn {
+    padding: 1vb;
+    font-size: 20px;
+    color: #fff;
+    margin: 5vb;
+}
+
+#go-back-btn {
+    background-color:rgb(49, 48, 50);
+    border-radius: 15px;
+    color: #fff;
+}
+
+.workout-btn {
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 25px;
+    color: #fff;
+    background-color:rgb(49, 48, 50);
+    margin-top: 1vb;
+    margin-bottom: 1vb;
+    position: relative;
+}
+
+.workout-btn:hover {
+    cursor: pointer;
+    box-shadow:0 0.5rem 1.4rem 0  lightblue;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+#reviewBody {
+    margin: 6vb 30vb 6vb; 
+    align-items: center;
+}
+
+#userReview {
+    background-color: black;
+}
+
+#usernameInput {
+    width: 440px;
+}
+
+#leave-review {
+    font-size: 2.4rem;
+}
+
+#usernameInput {
+    font-size: 1.2rem;
+}

@@ -1,0 +1,30 @@
+<div class="container">
+  <form class="col align-self-center" id="reviewBody">
+    <div class="mb-3">
+      <label class="form-label" id="leave-review">How was your workout? Leave a review!</label>
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+    </div>
+    </div>
+    <div class="mb-3">
+      <label class="form-label" id="usernameInput">Enter your username</label>
+      <input class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary" id="userReview">Submit</button>
+  </form>
+</div>
+
+  <section class="container row">
+    <ul>
+        {{#each UserData as |data|}}
+        <li class="col-3">
+            <a href="/review/{{data.id}}">
+            {{data.text}}
+            </a>
+        </li>
+        {{/each}}
+    </ul>
+</section>
+
+<script src="/js/index.js"></script>
+  
