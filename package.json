@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alisabevers/workout-like-a-boss.git"
+    "url": "git+https://github.com/christiankasegne/workout-like-a-boss2.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alisabevers/workout-like-a-boss/issues"
+    "url": "https://github.com/christiankasegne/workout-like-a-boss2/issues"
   },
-  "homepage": "https://github.com/alisabevers/workout-like-a-boss#readme",
+  "homepage": "https://github.com/christiankasegne/workout-like-a-boss2#readme",
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.2",

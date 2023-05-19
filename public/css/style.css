@@ -4,14 +4,25 @@ body {
     padding-top: 10vb;
     min-height: 100vh;
 }
+#nav-header {
+    font-size: 3rem;
+}
 
-/* a {
-    text: white !important;
-} */
+#nav-btn {
+    font-size: 1rem;
+    margin-left: 50px;
+}
 
 #muscleCard {
     display: flex;
     flex-wrap: wrap;
+}
+
+#home-phrase {
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 h2{
