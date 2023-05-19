@@ -13,11 +13,6 @@ body {
     margin-left: 50px;
 }
 
-#muscleCard {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 #home-phrase {
     font-size: 4.5vb;
     text-align: center;
