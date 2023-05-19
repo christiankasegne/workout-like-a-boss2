@@ -1,23 +1,23 @@
 <div class="container">
   <form class="col align-self-center" id="reviewBody">
-    <div class="mb-3">
+    <div class="mb-6">
       <label class="form-label" id="leave-review">How was your workout? Leave a review!</label>
       <div class="form-floating">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <textarea class="form-control" placeholder="Leave a comment here" id="commentTextarea" style="height: 100px"></textarea>
     </div>
     </div>
-    <div class="mb-3">
-      <label class="form-label" id="usernameInput">Enter your username</label>
-      <input class="form-control">
+    <div class="mb-6">
+      <label class="form-label" id="usernamelabel">Enter your username</label>
+      <input class="form-control" id="usernameInput">
     </div>
     <button type="submit" class="btn btn-primary" id="userReview">Submit</button>
   </form>
 </div>
 
-  <section class="container row">
+  <section class="container">
     <ul>
         {{#each UserData as |data|}}
-        <li class="col-3">
+        <li class="col-6">
             <a href="/review/{{data.id}}">
             {{data.text}}
             </a>

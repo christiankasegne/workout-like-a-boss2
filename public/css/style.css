@@ -149,7 +149,7 @@ h2 > span {
 }
 
 #reviewBody {
-    margin: 6vb 30vb 6vb; 
+    margin: 6vb 5vb 0vb; 
     align-items: center;
 }
 
@@ -157,14 +157,18 @@ h2 > span {
     background-color: black;
 }
 
+#commentTextarea {
+    width: 100%;
+}
+
 #usernameInput {
-    width: 440px;
+    width: 100%;
 }
 
 #leave-review {
     font-size: 2.4rem;
 }
 
-#usernameInput {
+#usernamelabel {
     font-size: 1.2rem;
 }
